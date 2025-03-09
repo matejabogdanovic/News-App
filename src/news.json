@@ -1,0 +1,232 @@
+{
+  "sport": [
+    {
+      "id": "2",
+      "bannerURL": "https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg",
+      "tags": [
+        "sport"
+      ],
+      "title": "The Importance of Nutrition in Sports",
+      "subtitle": "How diet impacts athletic performance and recovery.",
+      "paragraphs": [
+        "Proper nutrition is crucial for athletes aiming to perform at their best.",
+        "Macronutrient balance plays a key role in energy levels and muscle recovery.",
+        "Hydration is often overlooked but is essential for endurance and focus.",
+        "Supplements can enhance performance, but natural foods remain the best source of nutrients.",
+        "Coaches and trainers are now working closely with dietitians to optimize meal plans.",
+        "A well-structured diet can significantly reduce injury risks and accelerate recovery."
+      ],
+      "date": 1678130400000
+    },
+    {
+      "id": "3",
+      "bannerURL": "https://images.pexels.com/photos/416747/pexels-photo-416747.jpeg",
+      "tags": [
+        "sport"
+      ],
+      "title": "The Role of Sleep in Athletic Performance",
+      "subtitle": "Why rest and recovery are just as important as training.",
+      "paragraphs": [
+        "Sleep is essential for muscle recovery and cognitive function.",
+        "Athletes who prioritize sleep see improvements in reaction times and endurance.",
+        "Lack of sleep can lead to increased injury risk and slower recovery.",
+        "Sleep tracking technology is helping athletes optimize their rest schedules.",
+        "Experts recommend at least 7-9 hours of sleep for peak performance.",
+        "A consistent sleep routine can make a significant impact on an athlete’s success."
+      ],
+      "date": 1678212000000
+    },
+    {
+      "bannerURL": "https://images.pexels.com/photos/1552252/pexels-photo-1552252.jpeg",
+      "tags": [
+        "sport"
+      ],
+      "title": "The Impact of Nutrition on Athletic Performance 2 59493859403",
+      "subtitle": "How the right diet fuels success in sports.",
+      "paragraphs": [
+        "Proper nutrition is key for energy levels and muscle recovery.",
+        "Athletes require a balance of macronutrients for optimal performance.",
+        "Hydration plays a critical role in endurance and focus.",
+        "Nutrient timing can enhance strength, speed, and recovery.",
+        "Personalized meal plans are becoming more common in elite sports.",
+        "A well-structured diet can give athletes a competitive edge."
+      ],
+      "date": 1741559217080,
+      "id": "4"
+    },
+    {
+      "bannerURL": "https://images.pexels.com/photos/669585/pexels-photo-669585.jpeg",
+      "tags": [
+        "sport"
+      ],
+      "title": "Strength Training for Endurance Athletes 2",
+      "subtitle": "Why lifting weights is essential even for long-distance runners.",
+      "paragraphs": [
+        "Strength training helps prevent injuries and improves overall fitness.",
+        "Endurance athletes benefit from improved power and efficiency.",
+        "Weight training enhances muscle balance and coordination.",
+        "Incorporating strength workouts can reduce fatigue in long events.",
+        "A mix of resistance and bodyweight exercises is most effective.",
+        "Consistency in training leads to long-term endurance gains."
+      ],
+      "date": 1741358476097,
+      "id": "5"
+    },
+    {
+      "bannerURL": "https://images.pexels.com/photos/4384676/pexels-photo-4384676.jpeg",
+      "tags": [
+        "sport",
+        "technology"
+      ],
+      "title": "How Wearable Tech is Changing Sports Training",
+      "subtitle": "The future of performance tracking and optimization.",
+      "paragraphs": [
+        "dsadas\ndsadasd\nasd\nSjjsjsjs\nSbshshs\nParagraph\nok"
+      ],
+      "date": 1741557639569,
+      "id": "7"
+    }
+  ],
+  "business": [
+    {
+      "id": "1",
+      "bannerURL": "https://images.pexels.com/photos/669619/pexels-photo-669619.jpeg",
+      "tags": [
+        "business"
+      ],
+      "title": "The New Age of Entrepreneurship",
+      "subtitle": "How digital tools and global markets are reshaping business startups.",
+      "paragraphs": [
+        "The rise of e-commerce and digital platforms has made entrepreneurship more accessible than ever before.",
+        "Cloud computing and AI-powered analytics are helping businesses make data-driven decisions.",
+        "Remote work allows startups to hire top talent from around the world, reducing operational costs.",
+        "Sustainability is now a major factor, with green startups gaining traction in various industries.",
+        "The challenge remains balancing innovation with regulatory compliance and ethical business practices.",
+        "Entrepreneurs who embrace change and leverage modern technology will have the greatest chance of success."
+      ],
+      "date": 1678273500000
+    },
+    {
+      "id": "2",
+      "bannerURL": "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg",
+      "tags": [
+        "business"
+      ],
+      "title": "Investing in a Digital Economy",
+      "subtitle": "How smart investments are shaping the future of businesses.",
+      "paragraphs": [
+        "Digital assets and cryptocurrencies are becoming more attractive to investors.",
+        "Fintech innovations are disrupting traditional banking models.",
+        "Startups focusing on AI and automation are receiving record-breaking funding.",
+        "Risk management strategies are evolving to accommodate fast-changing markets.",
+        "Governments are introducing new regulations to ensure fair digital trade.",
+        "Investors who understand the digital economy can capitalize on emerging trends."
+      ],
+      "date": 1678282800000
+    },
+    {
+      "id": "3",
+      "bannerURL": "https://images.pexels.com/photos/4386326/pexels-photo-4386326.jpeg",
+      "tags": [
+        "business"
+      ],
+      "title": "The Rise of AI-Driven Startups",
+      "subtitle": "Why artificial intelligence is the foundation of modern businesses.",
+      "paragraphs": [
+        "AI-powered startups are revolutionizing industries from healthcare to finance.",
+        "Investors are pouring billions into machine learning and automation companies.",
+        "AI enhances efficiency, reducing operational costs for businesses.",
+        "Personalized customer experiences are driving higher retention rates.",
+        "Ethical concerns around AI regulation are shaping future policies.",
+        "The AI revolution is just beginning, with limitless opportunities ahead."
+      ],
+      "date": 1678267800000
+    },
+    {
+      "id": "4",
+      "bannerURL": "https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg",
+      "tags": [
+        "business"
+      ],
+      "title": "The Entrepreneur’s Guide to Scaling a Business",
+      "subtitle": "Key strategies for taking a startup to the next level.",
+      "paragraphs": [
+        "Scaling requires a balance between growth and operational efficiency.",
+        "Automating repetitive tasks can streamline expansion.",
+        "Strategic partnerships help businesses enter new markets.",
+        "Funding rounds should align with long-term vision and goals.",
+        "Building a strong leadership team ensures sustainable growth.",
+        "Customer feedback is crucial for refining products and services."
+      ],
+      "date": 1678345200000
+    },
+    {
+      "bannerURL": "https://images.pexels.com/photos/4386371/pexels-photo-4386371.jpeg",
+      "tags": [
+        "business"
+      ],
+      "title": "Managing Remote Teams Effectively 2",
+      "subtitle": "How successful leaders are managing distributed teams.",
+      "paragraphs": [
+        "Communication tools like Slack and Zoom have become essential for remote teams.",
+        "Building trust and accountability remotely can be challenging but is achievable.",
+        "Leaders must adapt their management style to be more flexible and outcome-focused.",
+        "Employee well-being and work-life balance are more important than ever.",
+        "Technology plays a critical role in ensuring seamless workflows.",
+        "The future of work is hybrid, and businesses must adjust their practices accordingly."
+      ],
+      "date": 1741358366576,
+      "id": "5"
+    }
+  ],
+  "technology": [
+    {
+      "bannerURL": "https://images.pexels.com/photos/3943714/pexels-photo-3943714.jpeg",
+      "tags": [
+        "technology"
+      ],
+      "title": "Blockchain: The Backbone of the Digital Future",
+      "subtitle": "How blockchain technology is shaping industries beyond cryptocurrencies.",
+      "paragraphs": [
+        "Blockchain technology is best known for being the foundation of cryptocurrencies like Bitcoin, but its applications go far beyond that.",
+        "Its decentralized nature makes it ideal for securing transactions and improving transparency in industries such as finance, healthcare, and supply chain management.",
+        "Blockchain can reduce fraud, ensure data integrity, and increase trust between parties.",
+        "Smart contracts, powered by blockchain, are streamlining business operations by automating agreements and transactions.",
+        "Governments and corporations are beginning to explore blockchain solutions for secure data sharing and voting systems.",
+        "While blockchain holds great potential, its scalability and energy consumption remain key challenges."
+      ],
+      "date": 1741526997747,
+      "id": "4"
+    },
+    {
+      "bannerURL": "https://scontent.fbeg1-1.fna.fbcdn.net/v/t39.30808-6/462108559_3933659806908726_9206737893417652336_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=Z-f2MPsiw_AQ7kNvgE1S3-b&_nc_oc=AdhZPFHMC_ZUKzDgI6OXYpNvtBfWE7y54PUR2Ed1RRk7bhVtbAZfWekMxvNFQsNGNM0&_nc_zt=23&_nc_ht=scontent.fbeg1-1.fna&_nc_gid=AengGVnkCemroGL--5HsBf2&oh=00_AYDEX5dnTGAgBtbKizztQmu48zwIC6NacryXQfUSF5Z6hw&oe=67CF77DD",
+      "tags": [
+        "technology",
+        "business",
+        "sport"
+      ],
+      "title": "New tech Prodigy Lazar",
+      "subtitle": "New tech prodigy in CS.",
+      "paragraphs": [
+        "He is new prodigy fr."
+      ],
+      "date": 1741529058526,
+      "id": "3ea8"
+    },
+    {
+      "bannerURL": "https://images.pexels.com/photos/4386371/pexels-photo-4386371.jpeg",
+      "tags": [
+        "technology",
+        "sport"
+      ],
+      "title": "New technology",
+      "subtitle": "New tech inline",
+      "paragraphs": [
+        "Inline",
+        "wtf is\nthis bro"
+      ],
+      "date": 1741558257150,
+      "id": "6487"
+    }
+  ]
+}
