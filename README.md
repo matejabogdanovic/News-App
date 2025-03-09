@@ -20,7 +20,7 @@ cd News-App
 
 ### 3. Install dependencies
 
-Use npm or yarn to install the required packages:
+Use npm to install the required packages:
 
 ```sh
 npm install
