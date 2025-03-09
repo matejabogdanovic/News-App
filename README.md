@@ -26,12 +26,6 @@ Use npm or yarn to install the required packages:
 npm install
 ```
 
-or
-
-```sh
-yarn install
-```
-
 ### 4. Run the application
 
 Start the development server in one terminal:
