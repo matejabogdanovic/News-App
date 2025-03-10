@@ -27,7 +27,7 @@ const Navbar = ({ links }: { links: NavLinks[] }) => {
           >
             <BiMenuAltRight
               className={
-                "text-3xl transform transition duration-500 ease-out " +
+                "text-3xl transform transition duration-300 " +
                 (!visible ? "" : "scale-y-[-1] ")
               }
             />
