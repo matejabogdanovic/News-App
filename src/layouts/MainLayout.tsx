@@ -7,7 +7,7 @@ const MainLayout = ({ links }: { links: NavLinks[] }) => {
   return (
     <>
       <Navbar links={links} />
-      <Container styleCssOverride="bg-transparent ">
+      <Container styleCssOverride=" ">
         <GoBackButton />
       </Container>
 

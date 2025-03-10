@@ -21,7 +21,7 @@ const HomePage = ({
             >
               {link.text}
             </Link>
-            <hr className="mb-4" />
+            <hr className="mb-4 border-gray-300" />
             <ArticleListings isHome={true} category={link.text} />
             <button
               onClick={() => {

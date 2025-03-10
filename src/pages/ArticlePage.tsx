@@ -18,7 +18,7 @@ const ArticlePage = ({
   const params = useParams();
   const navigate = useNavigate();
   return params && doesCategoryExist(params.category) ? (
-    <Container styleCssOverride="bg-transparent">
+    <Container>
       <div className=" mb-8 flex flex-col gap-4">
         {isAdmin() && (
           <div className="flex justify-end">
@@ -42,8 +42,10 @@ const ArticlePage = ({
           </div>
         )}
         <div className="flex xl:flex-row flex-col justify-center gap-8">
-          {content && <Article className="xl:w-[748px] " content={content} />}
-          <Aside className="xl:min-w-[220px]" />
+          {content && (
+            <Article className="xl:w-[748px] shadow-xl " content={content} />
+          )}
+          <Aside className="xl:min-w-[220px] shadow-xl " />
         </div>
       </div>
     </Container>

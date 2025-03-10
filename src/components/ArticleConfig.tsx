@@ -64,9 +64,9 @@ const ArticleConfig = ({
     }
   };
   const toggleCheckboxStyle =
-    "select-none cursor-pointer border-2 border-black rounded-full px-3 py-2";
+    "inline-block select-none cursor-pointer uppercase font-bold rounded-full px-4 py-1 border-2 border-black ";
   const toggleCheckboxStyleChecked =
-    "select-none cursor-pointer border-2 border-black rounded-full px-3 py-2 bg-black text-white ";
+    "inline-block select-none cursor-pointer uppercase font-bold rounded-full px-4 py-1 border-2 border-black bg-black text-white ";
   const handleCheck = (e: ChangeEvent<HTMLInputElement>) => {
     if (!tags.includes(e.target.id)) {
       setTags((prevTags) => [...prevTags, e.target.id]);
@@ -99,7 +99,7 @@ const ArticleConfig = ({
         </div>
         <div className="flex flex-col w-full">
           <span>Current tags:</span>
-          <div className="flex flex-wrap items-center w-full gap-4 border-black border-[1px] rounded-lg p-1">
+          <div className="flex flex-wrap items-center w-full gap-4 bg-white border-black border-[1px] rounded-lg p-1">
             {tags.map((tag, index) => (
               <span key={index}>{tag.toUpperCase()}</span>
             ))}

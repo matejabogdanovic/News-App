@@ -11,38 +11,46 @@ const ArticleListing = ({
   category?: string;
 }) => {
   const navigate = useNavigate();
+  const goToArticle = () => {
+    navigate(`/${category}/${content.id}`);
+    window.scrollTo(0, 0);
+  };
   return (
-    <div className="xl:w-[312px] w-full bg-neutral-400">
+    <div className="xl:hover:-translate-y-1 transition-transform duration-100 bg-white shadow-xl xl:w-[312px] w-full group">
       <div
-        className=" hover:cursor-pointer bg-cover bg-center w-full xl:h-[200px] h-[25vh]"
+        className="cursor-pointer bg-cover bg-center w-full xl:h-[200px] h-[25vh] flex flex-col-reverse"
         style={{ backgroundImage: `url('${content.bannerURL}')` }}
-        onClick={() => {
-          navigate(`/${category}/${content.id}`);
-          window.scrollTo(0, 0);
-        }}
-      ></div>
+        onClick={goToArticle}
+      >
+        <div className="bg-black bg-opacity-60 text-white min-h-[2.5lh] opacity-0 group-hover:opacity-100 transition-opacity p-2">
+          {content.subtitle}
+        </div>
+      </div>
       <div className="flex flex-col justify-between">
-        <div className="bg-neutral-200 text-sm p-2 flex items-center justify-between">
+        <div className=" text-sm p-2 flex items-center justify-between">
           {getDateTime(content.date)}
-          <ul className="flex gap-1 flex-wrap">
+          <ul className="flex gap-2 flex-wrap">
             <li>
               <Link to="https://www.facebook.com/">
-                <FaFacebook className="" />
+                <FaFacebook className=" xl:hover:-translate-y-1 transition-transform duration-100" />
               </Link>
             </li>
             <li>
               <Link to="https://www.instagram.com/">
-                <FaInstagram className="" />
+                <FaInstagram className="xl:hover:-translate-y-1 transition-transform duration-100" />
               </Link>
             </li>
             <li>
               <Link to="https://www.whatsapp.com/">
-                <FaWhatsapp className="" />
+                <FaWhatsapp className="xl:hover:-translate-y-1 transition-transform duration-100" />
               </Link>
             </li>
           </ul>
         </div>
-        <h1 className=" px-2 min-h-[3lh] font-semibold text-xl">
+        <h1
+          className="cursor-pointer px-2 min-h-[3lh] font-semibold text-xl"
+          onClick={goToArticle}
+        >
           {content.title}
         </h1>
       </div>

@@ -16,7 +16,7 @@ const ArticleListingsPage = ({ category }: { category: string }) => {
           </Link>
         )}
       </div>
-      <hr className="mb-4" />
+      <hr className="mb-4 border-gray-300" />
       <ArticleListings category={category} />
     </Container>
   );

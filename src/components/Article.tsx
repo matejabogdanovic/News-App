@@ -27,11 +27,11 @@ const Article = ({
         style={{ backgroundImage: `url(${content && content?.bannerURL})` }}
       ></div>
 
-      <div className="bg-neutral-300 px-4 py-3 flex flex-wrap gap-4">
+      <div className="bg-gradient-to-tl from-gray-200 to-gray-50 px-4 py-3 flex flex-wrap gap-4">
         {content?.tags.map((tag, index) => {
           return (
             <span
-              className="uppercase font-bold bg-white rounded-full px-4 py-1"
+              className="uppercase font-bold rounded-full px-4 py-1  cursor-pointer border-2 border-black "
               key={index}
             >
               <Link to={"/" + tag}>{tag}</Link>

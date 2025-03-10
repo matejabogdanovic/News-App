@@ -8,7 +8,7 @@ const Container = ({
   containerCssAdd?: string;
 }) => {
   return (
-    <div className={styleCssOverride ? styleCssOverride : "bg-white p-4 my-8"}>
+    <div className={styleCssOverride ? styleCssOverride : "p-4 my-8"}>
       <div
         className={`container max-w-[1000px] my-0 mx-auto ${
           containerCssAdd ? containerCssAdd : ""
