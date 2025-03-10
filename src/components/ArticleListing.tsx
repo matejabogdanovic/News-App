@@ -18,11 +18,11 @@ const ArticleListing = ({
   return (
     <div className="xl:hover:-translate-y-1 transition-transform duration-100 bg-white shadow-xl xl:w-[312px] w-full group">
       <div
-        className="cursor-pointer bg-cover bg-center w-full xl:h-[200px] h-[25vh] flex flex-col-reverse"
+        className="cursor-pointer bg-cover bg-center w-full xl:h-[200px] h-[25vh] flex flex-col-reverse overflow-hidden"
         style={{ backgroundImage: `url('${content.bannerURL}')` }}
         onClick={goToArticle}
       >
-        <div className="bg-black bg-opacity-60 text-white min-h-[2.5lh] opacity-0 group-hover:opacity-100 transition-opacity p-2">
+        <div className="bg-black bg-opacity-60 text-white min-h-16 p-2 opacity-0 xl:group-hover:opacity-100 translate-y-full group-hover:translate-y-0 duration-300">
           {content.subtitle}
         </div>
       </div>
@@ -32,7 +32,7 @@ const ArticleListing = ({
           <ul className="flex gap-2 flex-wrap">
             <li>
               <Link to="https://www.facebook.com/">
-                <FaFacebook className=" xl:hover:-translate-y-1 transition-transform duration-100" />
+                <FaFacebook className="xl:hover:-translate-y-1 transition-transform duration-100" />
               </Link>
             </li>
             <li>
@@ -48,7 +48,7 @@ const ArticleListing = ({
           </ul>
         </div>
         <h1
-          className="cursor-pointer px-2 min-h-[3lh] font-semibold text-xl"
+          className="cursor-pointer px-2 pb-2 min-h-[3lh] font-semibold text-xl"
           onClick={goToArticle}
         >
           {content.title}

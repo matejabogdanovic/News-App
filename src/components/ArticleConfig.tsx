@@ -1,10 +1,10 @@
-import { BiArrowBack } from "react-icons/bi";
 import Container from "./Container";
 import ErrorPage from "../pages/ErrorPage";
 import { ChangeEvent, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { ArticleType } from "./Article";
 import { isAdmin } from "../services/auth";
+import GoBackButton from "./GoBackButton";
 
 export type operationType = "add" | "edit";
 
@@ -175,8 +175,7 @@ const ArticleConfig = ({
           >
             Confirm changes
           </button>
-          <button
-            className="bg-transparent text-black rounded-full my-4 flex items-center gap-1"
+          <GoBackButton
             onClick={(e) => {
               e.preventDefault();
               if (
@@ -185,9 +184,7 @@ const ArticleConfig = ({
                 navigate(-1);
               }
             }}
-          >
-            <BiArrowBack /> Go back
-          </button>
+          />
         </div>
       </form>
     </Container>

@@ -43,7 +43,7 @@ const Navbar = ({ links }: { links: NavLinks[] }) => {
             <li className="flex flex-col justify-center" key={index}>
               <NavLink
                 className={({ isActive }) =>
-                  "border-x-[10px] border-r-transparent border-solid xl:border-y-[10px] xl:border-t-transparent xl:border-x-0 border-neutral-400 hover:xl:border-b-neutral-400 hover:border-l-neutral-400 transition min-h-[100px] py-4 px-8 flex justify-center items-center " +
+                  "border-x-4 border-r-transparent border-solid xl:border-y-4 xl:border-t-transparent xl:border-x-0 border-neutral-400 hover:xl:border-b-neutral-400 hover:border-l-neutral-400 transition duration-100 min-h-[100px] py-4 px-8 flex justify-center items-center " +
                   (!isActive ? " border-transparent" : "")
                 }
                 children={text}

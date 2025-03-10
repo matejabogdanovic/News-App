@@ -31,7 +31,7 @@ const Article = ({
         {content?.tags.map((tag, index) => {
           return (
             <span
-              className="uppercase font-bold rounded-full px-4 py-1  cursor-pointer border-2 border-black "
+              className="uppercase font-bold rounded-full px-4 py-1 cursor-pointer border-2 border-black xl:hover:-translate-y-1 transition-transform duration-100"
               key={index}
             >
               <Link to={"/" + tag}>{tag}</Link>
@@ -67,17 +67,17 @@ const Article = ({
           <ul className="flex gap-4 flex-wrap">
             <li>
               <Link to="https://www.facebook.com/">
-                <FaFacebook className="text-4xl" />
+                <FaFacebook className="text-4xl xl:hover:-translate-y-1 transition-transform duration-100" />
               </Link>
             </li>
             <li>
               <Link to="https://www.instagram.com/">
-                <FaInstagram className="text-4xl" />
+                <FaInstagram className="text-4xl xl:hover:-translate-y-1 transition-transform duration-100" />
               </Link>
             </li>
             <li>
               <Link to="https://www.whatsapp.com/">
-                <FaWhatsapp className="text-4xl" />
+                <FaWhatsapp className="text-4xl xl:hover:-translate-y-1 transition-transform duration-100" />
               </Link>
             </li>
           </ul>
