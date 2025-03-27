@@ -10,7 +10,6 @@ import { NavLinks } from "./components/Navbar";
 import ArticlePage from "./pages/ArticlePage";
 import ArticleListingsPage from "./pages/ArticleListingsPage";
 import AddArticlePage from "./pages/AddArticlePage";
-
 import EditArticlePage from "./pages/EditArticlePage";
 import NoGoBackButtonLayout from "./layouts/NoGoBackButtonLayout";
 import {

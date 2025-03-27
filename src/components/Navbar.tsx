@@ -2,12 +2,13 @@ import { NavLink } from "react-router-dom";
 import logo from "../assets/react.svg";
 import Container from "./Container";
 import { useState } from "react";
-
 import { BiMenuAltRight } from "react-icons/bi";
-
+import { BsToggleOn, BsToggleOff } from "react-icons/bs";
+import { Auth } from "../services/auth";
 export type NavLinks = { text: string; to: string };
 const Navbar = ({ links }: { links: NavLinks[] }) => {
   const [visible, setVisible] = useState<boolean>(false);
+  const [isAdmin, setIsAdmin] = useState<boolean>(Auth.getIsAdmin());
 
   return (
     <nav>
@@ -52,6 +53,21 @@ const Navbar = ({ links }: { links: NavLinks[] }) => {
               />
             </li>
           ))}
+          <li className="flex flex-col justify-center">
+            <button
+              className="text-2xl flex items-center justify-center xl:flex-col xl:gap-0 gap-2 py-4 px-8 min-h-[100px]"
+              onClick={() => {
+                setIsAdmin(!Auth.getIsAdmin());
+                Auth.setIsAdmin(!Auth.getIsAdmin());
+                window.location.reload();
+              }}
+            >
+              <span className="xl:text-xs text-base uppercase">
+                Toggle Admin
+              </span>
+              {isAdmin ? <BsToggleOn /> : <BsToggleOff />}
+            </button>
+          </li>
         </ul>
         <div className="xl:px-0 px-4 ">
           <input

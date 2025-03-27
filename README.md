@@ -1,6 +1,10 @@
 # News App
 
-News App is a dynamic React application that serves as an online newspaper, offering news across multiple categories. Users can browse through various sections, while administrators have the ability to add new articles through a dedicated interface.
+News App is a dynamic React application that serves as an online newspaper, offering news across multiple categories.
+<br>
+Users can browse through various sections, while administrators have the ability to add new articles through a dedicated interface.
+
+**Note that this is only a frontend practice app, so I used JSON Server to simulate a backend, and there is no authentication.**
 
 ## Installation
 

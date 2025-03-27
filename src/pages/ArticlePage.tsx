@@ -2,7 +2,7 @@ import Article from "../components/Article";
 import Aside from "../components/Aside";
 import { Link, useLoaderData, useNavigate, useParams } from "react-router-dom";
 import ErrorPage from "./ErrorPage";
-import { isAdmin } from "../services/auth";
+import { Auth } from "../services/auth";
 
 import { TbEditCircle } from "react-icons/tb";
 import Container from "../components/Container";
@@ -20,7 +20,7 @@ const ArticlePage = ({
   return params && doesCategoryExist(params.category) ? (
     <Container>
       <div className=" mb-8 flex flex-col gap-4">
-        {isAdmin() && (
+        {Auth.getIsAdmin() && (
           <div className="flex justify-end">
             <Link
               to={`/${params.category}/edit-article/${params.id}`}

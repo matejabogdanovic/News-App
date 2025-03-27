@@ -3,7 +3,7 @@ import ErrorPage from "../pages/ErrorPage";
 import { ChangeEvent, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { ArticleType } from "./Article";
-import { isAdmin } from "../services/auth";
+import { Auth } from "../services/auth";
 import GoBackButton from "./GoBackButton";
 
 export type operationType = "add" | "edit";
@@ -80,7 +80,7 @@ const ArticleConfig = ({
       });
     }
   };
-  return doesCategoryExist(category) && isAdmin() && data ? (
+  return doesCategoryExist(category) && Auth.getIsAdmin() && data ? (
     <Container>
       <form
         onSubmit={handleSubmit}

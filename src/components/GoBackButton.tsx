@@ -10,7 +10,7 @@ const GoBackButton = ({
   const navigate = useNavigate();
   return (
     <button
-      className="bg-transparent text-black my-8 flex items-center gap-1 hover:underline"
+      className="bg-transparent text-black my-8 flex items-center gap-1 xl:hover:underline"
       onClick={
         onClick
           ? onClick
